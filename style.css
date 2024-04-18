@@ -1,0 +1,31 @@
+body{
+    background-color:#49e0bb;
+    color:#0f0d0d;
+    font-family:sans-serif;
+    width:750px;
+   
+}
+.summary{
+    text-align:center;
+}
+.main{
+    line-height:1.5;
+}
+p{
+    text-indent: 1em;
+}
+h1,h2,h3{
+    text-align:center;
+}
+h1{
+    font-size:1.8rem;
+}
+h2{
+    font-size:1.4rem;
+}
+h3{
+    font-size:1.2rem;
+}
+abbr{
+    font-variant:small-caps;
+}
