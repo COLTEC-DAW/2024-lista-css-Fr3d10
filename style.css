@@ -2,11 +2,17 @@ body{
     background-color:#49e0bb;
     color:#494953;
     font-family:sans-serif;
-    width:750px;
+    width:80%;
+    max-width: 1280px;
    
+}
+header{
+    background-color:#494953;
+    color: #49e0bb;
 }
 .summary{
     text-align:center;
+    height: 550px;
 }
 .main{
     line-height:1.5;
@@ -14,11 +20,15 @@ body{
 p{
     text-indent: 1em;
 }
+
 h1,h2,h3{
     text-align:center;
+    display: inline-block;
 }
 h1{
+    display: inline-block;
     font-size:1.8rem;
+    margin-right: 1em;
 }
 h2{
     font-size:1.4rem;
@@ -28,4 +38,8 @@ h3{
 }
 abbr{
     font-variant:small-caps;
+}
+
+#design-archives{
+    display: none;
 }
